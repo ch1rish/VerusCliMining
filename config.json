@@ -15,8 +15,8 @@
         "pass": "c=VRSC",
         "algo": "verus",
         "threads": 8,
-        "cpu-priority": 1,
+        "cpu-priority": 3,
         "retry-pause": 5,
-        "api-allow": "10.0.0.0/16",
+        "api-allow": "10.10.0.0/16",
         "api-bind": "0.0.0.0:4068"
 }
