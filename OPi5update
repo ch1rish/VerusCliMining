@@ -1,0 +1,4 @@
+mv ~/ccminer/ccminer ~/ccminer/ccminer.bak
+wget https://github.com/ch1rish/CCminer-ARM-optimized/releases/download/v3.8.3-4-OPi5/ccminer -O ~/ccminer/ccminer
+chmod +x ~/ccminer/ccminer
+cp ~/ccminer/config.json ~/ccminer/ccminer.conf
