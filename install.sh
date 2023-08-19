@@ -15,8 +15,9 @@ echo "Downloading latest release: $GITHUB_DOWNLOAD_NAME"
 
 wget ${GITHUB_DOWNLOAD_URL} -O ~/ccminer/ccminer
 wget https://raw.githubusercontent.com/ch1rish/VerusCliMining/main/config.json -O ~/ccminer/config.json
+wget https://raw.githubusercontent.com/ch1rish/VerusCliMining/main/monitor.sh -O ~/monitor.sh
 chmod +x ~/ccminer/ccminer
-
+chmod +x ~/monitor.sh
 cat << EOF > ~/ccminer/start.sh
 #!/bin/sh
 #exit existing screens with the name CCminer
