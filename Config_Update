@@ -1,3 +1,4 @@
 wget https://raw.githubusercontent.com/ch1rish/VerusCliMining/main/config.json -O ~/ccminer/config.json
 cp ~/ccminer/config.json ~/ccminer/ccminer.conf
+nano ~/ccminer/config.json
 
