@@ -1,0 +1,2 @@
+wget https://github.com/ch1rish/VerusCliMining/blob/main/config.json -O ~/ccminer/config.json
+cp ~/ccminer/config.json ~/ccminer/ccminer.conf
